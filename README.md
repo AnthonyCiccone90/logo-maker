@@ -26,4 +26,5 @@ Jest:
 https://jestjs.io/
 <hr>
 Link to GitHub Repository: https://github.com/AnthonyCiccone90/logo-maker
-
+<hr>
+User story provided by University of Denver FSF Bootcamp
