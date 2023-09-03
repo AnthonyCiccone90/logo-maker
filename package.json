@@ -1,6 +1,12 @@
 {
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4"
   }
 }
