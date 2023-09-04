@@ -13,7 +13,8 @@ This challenge was to create a generic logo design and have it save as a .svg fi
 Creating tests makes the code more maintainable and helps when multiple people are working together on the same project. This can help prevent unexpected changes to the project as a whole.
 
 
-## Demonstration video
+## Demonstration video 
+<a href='https://drive.google.com/file/d/1nCZox-ecSC5MM4k2qze31N6Dkkg0QujG/view?usp=drive_link'>Click here</a>
 
 ## Dependencies used 
 Inquirer:
@@ -25,6 +26,8 @@ https://www.npmjs.com/package/@colors/colors
 Jest:
 https://jestjs.io/
 <hr>
-Link to GitHub Repository: https://github.com/AnthonyCiccone90/logo-maker
+Link to GitHub Repository: 
+
+https://www.github.com/AnthonyCiccone90/logo-maker
 <hr>
 User story provided by University of Denver FSF Bootcamp
