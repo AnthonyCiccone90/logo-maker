@@ -1,6 +1,5 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-// const createLogo = require("./lib/logo");
 const colorNames = require("colors");
 const SVGStart = '<svg xmlns="http://www.w3.org/2000/svg" height="200" width="300">'
 const SVGEnd = '</svg>'
