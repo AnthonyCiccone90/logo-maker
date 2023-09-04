@@ -2,11 +2,12 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 // const createLogo = require("./lib/logo");
 const colorNames = require("colors");
-const SVGStart = '<svg xmlns="http://www.w3.org/2000/svg" height="200" width="300">';
-const SVGEnd = '</svg>';
+const SVGStart = '<svg xmlns="http://www.w3.org/2000/svg" height="200" width="300">'
+const SVGEnd = '</svg>'
 const Square = require("./lib/square");
 const Triangle = require("./lib/triangle");
-const Circle = require("./lib/circle");
+const Circle = require("./lib/circle")
+
 
 
 function init () {
@@ -57,8 +58,6 @@ function init () {
         ])
     
         .then((data) => {
-            // const logo = createLogo(data);
-            // SVGFile(logo);
             if (data.shape === "square") {
                 const square = new Square(data.shapeColor, data.characters, data.textColor);
                 const SVGString = SVGStart + square.render() + SVGEnd
@@ -98,7 +97,7 @@ function init () {
         });
     }
 
-function SVGFile(content) {
+function generateLogo(content) {
         fs.writeFile("logo.svg", content, (err) => {
             if (err) {
                 console.error(err);
