@@ -55,7 +55,7 @@ function init () {
                 },
             },
         ])
-    
+    // creates shape
         .then((data) => {
             if (data.shape === "square") {
                 const square = new Square(data.shapeColor, data.characters, data.textColor);
@@ -95,7 +95,7 @@ function init () {
             console.error(error);
         });
     }
-
+// creates files
 function generateLogo(content) {
         fs.writeFile("logo.svg", content, (err) => {
             if (err) {
